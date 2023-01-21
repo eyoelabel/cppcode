@@ -1,5 +1,6 @@
  #include <iostream>
   using namespace std;
+//this is c++ code
   int main()
   {
   int a[2][2],b[1][2],mul[1][1],r,c,i,j,k;
