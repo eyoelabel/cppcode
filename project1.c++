@@ -78,3 +78,34 @@ void most_occurred_number(int nums[], int size){
     most_occurred_number(nums, n);
     return 0;
 }
+
+
+// C++ Program to print the elements of a
+// Two-Dimensional array
+#include<iostream>
+using namespace std;
+  
+int main()
+{
+  int multi;
+    // an array with 3 rows and 2 columns.
+    int x[2][2] = {{1,2}, {3,4}};
+    int y[2]={9,5};
+    // output each array element's value
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            cout << "Element at x[" << i
+                 << "][" << j << "]: ";
+            cout << x[i][j]<<endl;
+        }
+    }
+    for(int k=0;k<2;k++)
+    {
+    cout<<"Element at y["<<k<<"] = "<<y[k]<<endl;
+    }
+   
+  
+    return 0;
+}
